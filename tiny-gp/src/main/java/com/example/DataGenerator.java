@@ -22,6 +22,6 @@ public class DataGenerator {
 
     public static void main(String[] args) {
         // Przykład generowania danych dla funkcji f(x) = 5*x^3 - 2*x^2 + 3*x - 17 w dziedzinie [-10, 10]
-        generateData("generated_data.txt", x -> 5 * Math.pow(x, 3) - 2 * Math.pow(x, 2) + 3 * x - 17, -10, 10, 0.1);
+        generateData("tiny-gp/data/generated_data.dat", x -> 5 * Math.pow(x, 3) - 2 * Math.pow(x, 2) + 3 * x - 17, -10, 10, 0.1);
     }
 }

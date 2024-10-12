@@ -40,7 +40,9 @@ public class PopulationManager {
         for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
             if (Constants.fbestpop > -1e-5) {
                 System.out.print("PROBLEM SOLVED\n");
-                System.exit(0);
+//                return zeby nie konczylo dzialania calego programu
+//                System.exit(0);
+                return;
             }
             for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
                 char[] newind;
@@ -168,5 +170,15 @@ public class PopulationManager {
         return (parentcopy);
     }
 
-    // Other methods like stats, tournament, negativeTournament, createRandomPop, mutation, crossover would be here
+
+    public char[] getBestIndividual() {
+        int bestIndex = 0;
+        for (int i = 1; i < Constants.POPSIZE; i++) {
+            if (fitness[i] > fitness[bestIndex]) {
+                bestIndex = i;
+            }
+        }
+        return pop[bestIndex];
+    }
+
 }

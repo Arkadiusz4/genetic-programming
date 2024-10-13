@@ -6,23 +6,44 @@ import java.nio.file.Paths;
 public class BatchRunner {
 
     public static void main(String[] args) {
-        String folderPath = "assets/data";
+        String folderPath = "../assets/data";
         String outputFolder = "tiny-gp/output";
         long s = -1;
 
-        processFolder(folderPath, outputFolder, s);
+        String[] substrings = {"f1"};
+
+        processFolder(folderPath, outputFolder, s, substrings);
     }
 
-    public static void processFolder(String folderPath, String outputFolder, long s) {
+    public static void processFolder(String folderPath, String outputFolder, long s, String[] substrings) {
         File folder = new File(folderPath);
 
-        File[] files = folder.listFiles((dir, name) -> name.endsWith(".dat"));
+        System.out.println("Pełna ścieżka folderu: " + folder.getAbsolutePath());
 
-        for (File file : files) {
-            String dataFilePath = file.getAbsolutePath();
-            String outputFilePath = generateOutputPath(file, outputFolder);
+        if (!folder.exists() || !folder.isDirectory()) {
+            System.out.println("Folder nie istnieje lub nie jest katalogiem.");
+            return;
+        }
 
-            runTinyGP(dataFilePath, outputFilePath, s);
+        File[] files = folder.listFiles((dir, name) -> {
+            if (!name.endsWith(".dat")) {
+                return false;
+            }
+            for (String substring : substrings) {
+                if (name.contains(substring)) {
+                    return true;
+                }
+            }
+            return false;
+        });
+
+        if (files != null) {
+            for (File file : files) {
+                String dataFilePath = file.getAbsolutePath();
+                String outputFilePath = generateOutputPath(file, outputFolder);
+
+                runTinyGP(dataFilePath, outputFilePath, s);
+            }
         }
     }
 

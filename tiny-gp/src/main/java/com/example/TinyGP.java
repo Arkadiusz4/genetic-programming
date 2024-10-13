@@ -15,16 +15,18 @@ public class TinyGP {
 
     public void evolveAndExportExcel(String fname, String excelFilePath) {
         PopulationManager populationManager = new PopulationManager();
-        populationManager.evolve();
+        boolean evoled = populationManager.evolve();
 
-        char[] bestIndividual = populationManager.getBestIndividual();
-        String bestExpression = Helpers.convertIndivToString(bestIndividual);
+        if (evoled) {
+            char[] bestIndividual = populationManager.getBestIndividual();
+            String bestExpression = Helpers.convertIndivToString(bestIndividual);
 
-        try {
-            ExcelGenerator.createExcelFromGeneratedData(fname, excelFilePath, bestExpression);
-            System.out.println("Excel file created.");
-        } catch (IOException e) {
-            e.printStackTrace();
+            try {
+                ExcelGenerator.createExcelFromGeneratedData(fname, excelFilePath, bestExpression);
+                System.out.println("Excel file created.");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }

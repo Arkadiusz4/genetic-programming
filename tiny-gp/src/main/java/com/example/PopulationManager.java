@@ -34,7 +34,7 @@ public class PopulationManager {
         return (pop);
     }
 
-    public void evolve() {
+    public boolean evolve() {
         Helpers.printParameters();
         stats(fitness, pop, 0);
         for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
@@ -42,7 +42,7 @@ public class PopulationManager {
                 System.out.print("PROBLEM SOLVED\n");
 //                return zeby nie konczylo dzialania calego programu
 //                System.exit(0);
-                return;
+                return true;
             }
             for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
                 char[] newind;
@@ -62,7 +62,8 @@ public class PopulationManager {
             stats(fitness, pop, gen);
         }
         System.out.print("PROBLEM *NOT* SOLVED\n");
-        System.exit(1);
+//        System.exit(1);
+        return false;
     }
 
     public void stats(double[] fitness, char[][] pop, int gen) {

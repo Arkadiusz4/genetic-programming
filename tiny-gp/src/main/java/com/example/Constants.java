@@ -9,9 +9,9 @@ public class Constants {
     public static final int DIV = 113;
     public static final int FSET_START = ADD;
     public static final int FSET_END = DIV;
-    public static final int MAX_LEN = 10000;
-    public static final int POPSIZE = 100000;
-    public static final int DEPTH = 5;
+    public static final int MAX_LEN = 20;
+    public static final int POPSIZE = 10000;
+    public static final int DEPTH = 1;
     public static final int GENERATIONS = 100;
     public static final int TSIZE = 2;
     public static final double PMUT_PER_NODE = 0.05;

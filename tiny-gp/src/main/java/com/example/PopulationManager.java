@@ -38,7 +38,7 @@ public class PopulationManager {
         Helpers.printParameters();
         stats(fitness, pop, 0);
         for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
-            if (Constants.fbestpop > -1e-5) {
+            if (Constants.fbestpop > -1e-1) {
                 System.out.print("PROBLEM SOLVED\n");
 //                return zeby nie konczylo dzialania calego programu
 //                System.exit(0);

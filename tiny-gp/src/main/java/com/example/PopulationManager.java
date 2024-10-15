@@ -76,8 +76,14 @@ public class PopulationManager {
         Helpers.printParameters();
         stats(fitness, pop, 0);
         for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
-            // Zbieranie wartości Best Fitness i Average Fitness
             stats(fitness, pop, gen);
+
+            if (Constants.fbestpop > -0.5) {
+                System.out.print("PROBLEM SOLVED\n");
+//                return zeby nie konczylo dzialania calego programu
+//                System.exit(0);
+                return true;
+            }
 
             // Logika ewolucji
             for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
@@ -98,7 +104,8 @@ public class PopulationManager {
         }
         System.out.print("PROBLEM *NOT* SOLVED\n");
 //        System.exit(1);
-        return false;    }
+        return false;
+    }
 
     public void stats(double[] fitness, char[][] pop, int gen) {
         int i, best = Constants.rd.nextInt(Constants.POPSIZE);

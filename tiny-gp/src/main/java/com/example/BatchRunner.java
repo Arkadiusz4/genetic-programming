@@ -7,7 +7,7 @@ public class BatchRunner {
 
     public static void main(String[] args) {
         String folderPath = "../assets/data";
-        String outputFolder = "tiny-gp/output/new";
+        String outputFolder = "/output/new";
         long s = -1;
 
         String[] substrings = {"f2"};

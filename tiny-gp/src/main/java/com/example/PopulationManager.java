@@ -1,8 +1,13 @@
 package com.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PopulationManager {
     double[] fitness = new double[Constants.POPSIZE];
     char[][] pop;
+    List<Double> bestFitnessPerGen = new ArrayList<>();
+    List<Double> avgFitnessPerGen = new ArrayList<>();
 
     public PopulationManager() {
         pop = createRandomPop(Constants.POPSIZE, Constants.DEPTH, fitness);
@@ -34,16 +39,47 @@ public class PopulationManager {
         return (pop);
     }
 
+//    public boolean evolve() {
+//        Helpers.printParameters();
+//        stats(fitness, pop, 0);
+//        for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
+//            if (Constants.fbestpop > -1e-1) {
+//                System.out.print("PROBLEM SOLVED\n");
+////                return zeby nie konczylo dzialania calego programu
+////                System.exit(0);
+//                return true;
+//            }
+//            for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
+//                char[] newind;
+//                if (Constants.rd.nextDouble() < Constants.CROSSOVER_PROB) {
+//                    int parent1 = tournament(fitness, Constants.TSIZE);
+//                    int parent2 = tournament(fitness, Constants.TSIZE);
+//                    newind = crossover(pop[parent1], pop[parent2]);
+//                } else {
+//                    int parent = tournament(fitness, Constants.TSIZE);
+//                    newind = mutation(pop[parent], Constants.PMUT_PER_NODE);
+//                }
+//                double newfit = FitnessCalculator.fitnessFunction(newind);
+//                int offspring = negativeTournament(fitness, Constants.TSIZE);
+//                pop[offspring] = newind;
+//                fitness[offspring] = newfit;
+//            }
+//            stats(fitness, pop, gen);
+//        }
+//        System.out.print("PROBLEM *NOT* SOLVED\n");
+////        System.exit(1);
+//        return false;
+//    }
+
+
     public boolean evolve() {
         Helpers.printParameters();
         stats(fitness, pop, 0);
         for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
-            if (Constants.fbestpop > -1e-1) {
-                System.out.print("PROBLEM SOLVED\n");
-//                return zeby nie konczylo dzialania calego programu
-//                System.exit(0);
-                return true;
-            }
+            // Zbieranie wartości Best Fitness i Average Fitness
+            stats(fitness, pop, gen);
+
+            // Logika ewolucji
             for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
                 char[] newind;
                 if (Constants.rd.nextDouble() < Constants.CROSSOVER_PROB) {
@@ -59,12 +95,10 @@ public class PopulationManager {
                 pop[offspring] = newind;
                 fitness[offspring] = newfit;
             }
-            stats(fitness, pop, gen);
         }
         System.out.print("PROBLEM *NOT* SOLVED\n");
 //        System.exit(1);
-        return false;
-    }
+        return false;    }
 
     public void stats(double[] fitness, char[][] pop, int gen) {
         int i, best = Constants.rd.nextInt(Constants.POPSIZE);
@@ -82,6 +116,10 @@ public class PopulationManager {
         }
         Constants.avg_len = (double) node_count / Constants.POPSIZE;
         Constants.favgpop /= Constants.POPSIZE;
+
+        bestFitnessPerGen.add(Constants.fbestpop);
+        avgFitnessPerGen.add(Constants.favgpop);
+
         System.out.print("Generation=" + gen + " Avg Fitness=" + (-Constants.favgpop) +
                 " Best Fitness=" + (-Constants.fbestpop) + " Avg Size=" + Constants.avg_len +
                 "\nBest Individual: ");

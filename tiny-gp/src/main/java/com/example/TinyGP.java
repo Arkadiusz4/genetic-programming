@@ -21,7 +21,8 @@ public class TinyGP {
         String bestExpression = Helpers.convertIndivToString(bestIndividual);
 
         try {
-            ExcelGenerator.createExcelFromGeneratedData(fname, excelFilePath, bestExpression);
+            ExcelGenerator.createExcelFromGeneratedData(fname, excelFilePath, bestExpression,
+                    populationManager.bestFitnessPerGen, populationManager.avgFitnessPerGen);
             System.out.println("Excel file created.");
         } catch (IOException e) {
             e.printStackTrace();

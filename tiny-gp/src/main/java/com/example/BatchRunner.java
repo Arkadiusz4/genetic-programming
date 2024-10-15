@@ -6,11 +6,11 @@ import java.nio.file.Paths;
 public class BatchRunner {
 
     public static void main(String[] args) {
-        String folderPath = "../assets/data";
+        String folderPath = "assets/data";
         String outputFolder = "tiny-gp/output/new";
         long s = -1;
 
-        String[] substrings = {"f3"};
+        String[] substrings = {"f1"};
 
         processFolder(folderPath, outputFolder, s, substrings);
     }

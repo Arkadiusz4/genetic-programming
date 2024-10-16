@@ -10,7 +10,7 @@ public class BatchRunner {
         String outputFolder = "tiny-gp/output/new";
         long s = -1;
 
-        String[] substrings = {"f1"};
+        String[] substrings = {"f2"};
 
         processFolder(folderPath, outputFolder, s, substrings);
     }

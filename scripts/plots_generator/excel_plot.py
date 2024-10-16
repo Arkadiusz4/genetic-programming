@@ -1,3 +1,5 @@
+from threading import Thread
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -61,7 +63,31 @@ def create_3d_comparison_plot(file_path, save_path=None):
     plt.show()
 
 
-file_path = '/Users/amika/Downloads/f3_2_data.xlsx'
-save_path = '/Users/amika/Documents/genetic-programming/assets/plots/comaprison_plots/f3_2.png'
-create_comparison_plot(file_path, save_path)
-# create_3d_comparison_plot(file_path, save_path)
+def draw_fitness_plot(excel_file_path, save_path=None):
+    df = pd.read_excel(excel_file_path, sheet_name='Fitness Data')
+
+    # Wykres
+    plt.figure(figsize=(10, 6))
+    plt.plot(df['Generacja'], df['Best Fitness'], label='Best Fitness', color='blue')
+    plt.plot(df['Generacja'], df['Average Fitness'], label='Average Fitness', color='red', linestyle='--')
+
+    # Dodawanie tytułów i legendy
+    plt.title('Best Fitness vs Average Fitness per Generation')
+    plt.xlabel('Generacja')
+    plt.ylabel('Fitness')
+    plt.legend()
+    plt.grid(True)
+
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Wykres zapisano w: {save_path}")
+
+    plt.show()
+
+
+file_path = '/Users/amika/Downloads/f6_4_data.xlsx'
+comparison_plot_path = '/Users/amika/Documents/genetic-programming/assets/plots/comparison_plots/f6_4.png'
+generation_plot_path = '/Users/amika/Documents/genetic-programming/assets/plots/generations_plots/f6_4.png'
+#create_comparison_plot(file_path, comparison_plot_path)
+#create_3d_comparison_plot(file_path, comparison_plot_path)
+draw_fitness_plot(file_path, generation_plot_path)

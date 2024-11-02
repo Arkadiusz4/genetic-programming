@@ -10,6 +10,8 @@ public class Constants {
     public static final int SIN = 114;
     public static final int COS = 115;
     public static final int FSET_START = ADD;
+    public static final int MULTI_ARG_OPERATIONS_END = DIV;
+    public static final int SINGLE_ARG_OPERATIONS_START = SIN;
     public static final int FSET_END = COS;
     public static final int MAX_LEN = 20;
     public static final int POPSIZE = 100000;

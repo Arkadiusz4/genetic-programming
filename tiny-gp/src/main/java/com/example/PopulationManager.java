@@ -39,39 +39,6 @@ public class PopulationManager {
         return (pop);
     }
 
-//    public boolean evolve() {
-//        Helpers.printParameters();
-//        stats(fitness, pop, 0);
-//        for (int gen = 1; gen < Constants.GENERATIONS; gen++) {
-//            if (Constants.fbestpop > -1e-1) {
-//                System.out.print("PROBLEM SOLVED\n");
-////                return zeby nie konczylo dzialania calego programu
-////                System.exit(0);
-//                return true;
-//            }
-//            for (int indivs = 0; indivs < Constants.POPSIZE; indivs++) {
-//                char[] newind;
-//                if (Constants.rd.nextDouble() < Constants.CROSSOVER_PROB) {
-//                    int parent1 = tournament(fitness, Constants.TSIZE);
-//                    int parent2 = tournament(fitness, Constants.TSIZE);
-//                    newind = crossover(pop[parent1], pop[parent2]);
-//                } else {
-//                    int parent = tournament(fitness, Constants.TSIZE);
-//                    newind = mutation(pop[parent], Constants.PMUT_PER_NODE);
-//                }
-//                double newfit = FitnessCalculator.fitnessFunction(newind);
-//                int offspring = negativeTournament(fitness, Constants.TSIZE);
-//                pop[offspring] = newind;
-//                fitness[offspring] = newfit;
-//            }
-//            stats(fitness, pop, gen);
-//        }
-//        System.out.print("PROBLEM *NOT* SOLVED\n");
-////        System.exit(1);
-//        return false;
-//    }
-
-
     public boolean evolve() {
         Helpers.printParameters();
         stats(fitness, pop, 0);
@@ -208,13 +175,20 @@ public class PopulationManager {
                         case Constants.MUL:
                         case Constants.DIV:
                             parentcopy[mutsite] =
-                                    (char) (Constants.rd.nextInt(Constants.FSET_END - Constants.FSET_START + 1)
+                                    (char) (Constants.rd.nextInt(Constants.MULTI_ARG_OPERATIONS_END - Constants.FSET_START + 1)
                                             + Constants.FSET_START);
+                            break;
+                        case Constants.SIN:
+                        case Constants.COS:
+                            parentcopy[mutsite] =
+                                    (char) (Constants.rd.nextInt(Constants.FSET_END - Constants.SINGLE_ARG_OPERATIONS_START + 1)
+                                            + Constants.SINGLE_ARG_OPERATIONS_START);
                     }
             }
         }
-        return (parentcopy);
+        return parentcopy;
     }
+
 
 
     public char[] getBestIndividual() {

@@ -16,6 +16,10 @@ public class GeneticOperations {
                 if (Math.abs(den) <= 0.001) return num;
                 else return num / den;
             }
+            case Constants.SIN:
+                return Math.sin(run());
+            case Constants.COS:
+                return Math.cos(run());
         }
         return 0.0;
     }
@@ -25,6 +29,8 @@ public class GeneticOperations {
         return switch (buffer[buffercount]) {
             case Constants.ADD, Constants.SUB, Constants.MUL, Constants.DIV ->
                     traverse(buffer, traverse(buffer, ++buffercount));
+            case Constants.SIN, Constants.COS ->
+                    traverse(buffer, ++buffercount);
             default -> 0;
         };
     }
@@ -33,11 +39,9 @@ public class GeneticOperations {
         char prim = (char) Constants.rd.nextInt(2);
         int one_child;
 
-        if (pos >= max)
-            return (-1);
+        if (pos >= max) return (-1);
 
-        if (pos == 0)
-            prim = 1;
+        if (pos == 0) prim = 1;
 
         if (prim == 0 || depth == 0) {
             prim = (char) Constants.rd.nextInt(Constants.varnumber + Constants.randomnumber);
@@ -52,9 +56,12 @@ public class GeneticOperations {
                 case Constants.DIV:
                     buffer[pos] = prim;
                     one_child = grow(buffer, pos + 1, max, depth - 1);
-                    if (one_child < 0)
-                        return (-1);
+                    if (one_child < 0) return (-1);
                     return (grow(buffer, one_child, max, depth - 1));
+                case Constants.SIN:
+                case Constants.COS:
+                    buffer[pos] = prim;
+                    return grow(buffer, pos + 1, max, depth - 1);
             }
         }
         return (0);

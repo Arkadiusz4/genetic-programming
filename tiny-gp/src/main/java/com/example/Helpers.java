@@ -44,6 +44,16 @@ public class Helpers {
                 a1 = printIndiv(buffer, ++buffercounter);
                 System.out.print(" / ");
                 break;
+            case Constants.SIN:
+                System.out.print("sin(");
+                a1 = printIndiv(buffer, ++buffercounter);
+                System.out.print(")");
+                return a1;
+            case Constants.COS:
+                System.out.print("cos(");
+                a1 = printIndiv(buffer, ++buffercounter);
+                System.out.print(")");
+                return a1;
         }
         a2 = printIndiv(buffer, a1);
         System.out.print(")");
@@ -86,11 +96,19 @@ public class Helpers {
                 a1 = convertIndivToStringHelper(buffer, ++buffercounter, sb);
                 sb.append(" / ");
                 break;
+            case Constants.SIN:
+                sb.append("sin(");
+                a1 = convertIndivToStringHelper(buffer, ++buffercounter, sb);
+                sb.append(")");
+                return a1;
+            case Constants.COS:
+                sb.append("cos(");
+                a1 = convertIndivToStringHelper(buffer, ++buffercounter, sb);
+                sb.append(")");
+                return a1;
         }
         a2 = convertIndivToStringHelper(buffer, a1, sb);
         sb.append(")");
         return a2;
     }
-
-
 }

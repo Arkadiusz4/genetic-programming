@@ -1,4 +1,6 @@
-package com.example;
+package com.example.fitness;
+
+import com.example.core.Constants;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class FitnessCalculator {
     static double[][] targets;
-    static double[] x = new double[Constants.FSET_START];
+    public static double[] x = new double[Constants.FSET_START];
 
     public static void setupFitness(String fname) {
         try {

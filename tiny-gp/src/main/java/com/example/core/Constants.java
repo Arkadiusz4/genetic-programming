@@ -1,4 +1,4 @@
-package com.example;
+package com.example.core;
 
 import java.util.Random;
 
@@ -21,14 +21,17 @@ public class Constants {
     public static final double PMUT_PER_NODE = 0.05;
     public static final double CROSSOVER_PROB = 0.9;
 
-    static double minrandom, maxrandom;
-    static int varnumber, fitnesscases, randomnumber;
-    static long seed;
-    static Random rd = new Random();
-    static char[] program;
-    static int PC;
-    static double fbestpop = 0.0, favgpop = 0.0;
-    static double avg_len;
-    static char[] buffer = new char[MAX_LEN];
-
+    public static double minrandom;
+    public static double maxrandom;
+    public static int varnumber;
+    public static int fitnesscases;
+    public static int randomnumber;
+    public static long seed;
+    public static Random rd = new Random();
+    public static char[] program;
+    public static int PC;
+    public static double fbestpop = 0.0;
+    public static double favgpop = 0.0;
+    public static double avg_len;
+    public static char[] buffer = new char[MAX_LEN];
 }

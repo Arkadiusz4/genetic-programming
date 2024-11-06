@@ -1,4 +1,6 @@
-package com.example;
+package com.example.fitness;
+
+import com.example.core.Constants;
 
 public class GeneticOperations {
     public static double run() {
@@ -29,8 +31,7 @@ public class GeneticOperations {
         return switch (buffer[buffercount]) {
             case Constants.ADD, Constants.SUB, Constants.MUL, Constants.DIV ->
                     traverse(buffer, traverse(buffer, ++buffercount));
-            case Constants.SIN, Constants.COS ->
-                    traverse(buffer, ++buffercount);
+            case Constants.SIN, Constants.COS -> traverse(buffer, ++buffercount);
             default -> 0;
         };
     }

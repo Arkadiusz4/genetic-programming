@@ -1,4 +1,6 @@
-package com.example;
+package com.example.fitness;
+
+import com.example.core.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +8,8 @@ import java.util.List;
 public class PopulationManager {
     double[] fitness = new double[Constants.POPSIZE];
     char[][] pop;
-    List<Double> bestFitnessPerGen = new ArrayList<>();
-    List<Double> avgFitnessPerGen = new ArrayList<>();
+    public List<Double> bestFitnessPerGen = new ArrayList<>();
+    public List<Double> avgFitnessPerGen = new ArrayList<>();
 
     public PopulationManager() {
         pop = createRandomPop(Constants.POPSIZE, Constants.DEPTH, fitness);
@@ -189,8 +191,6 @@ public class PopulationManager {
         return parentcopy;
     }
 
-
-
     public char[] getBestIndividual() {
         int bestIndex = 0;
         for (int i = 1; i < Constants.POPSIZE; i++) {
@@ -200,5 +200,4 @@ public class PopulationManager {
         }
         return pop[bestIndex];
     }
-
 }

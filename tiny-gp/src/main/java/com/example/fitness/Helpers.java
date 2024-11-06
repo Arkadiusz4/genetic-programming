@@ -1,4 +1,6 @@
-package com.example;
+package com.example.fitness;
+
+import com.example.core.Constants;
 
 public class Helpers {
     public static void printParameters() {

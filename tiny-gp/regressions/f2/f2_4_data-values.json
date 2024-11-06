@@ -1,0 +1,502 @@
+[
+  {
+    "X1": -100.0,
+    "Wartość oczekiwana": 1.3686845133974428,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -97.97979797979798,
+    "Wartość oczekiwana": -0.27398903130373564,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -95.95959595959596,
+    "Wartość oczekiwana": -1.1306262306741033,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -93.93939393939394,
+    "Wartość oczekiwana": 1.2563456519155385,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -91.91919191919192,
+    "Wartość oczekiwana": 0.03903695434868437,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -89.8989898989899,
+    "Wartość oczekiwana": -1.290263324717174,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -87.87878787878788,
+    "Wartość oczekiwana": 1.0820220525813093,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -85.85858585858585,
+    "Wartość oczekiwana": 0.35013696096964364,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -83.83838383838383,
+    "Wartość oczekiwana": -1.3862422735506652,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -81.81818181818181,
+    "Wartość oczekiwana": 0.8543143760407573,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -79.79797979797979,
+    "Wartość oczekiwana": 0.6439621454068968,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -77.77777777777777,
+    "Wartość oczekiwana": -1.4138277322687265,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -75.75757575757575,
+    "Wartość oczekiwana": 0.5844571106815395,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -73.73737373737373,
+    "Wartość oczekiwana": 0.9060159580811262,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -71.71717171717171,
+    "Wartość oczekiwana": -1.3716587080390363,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -69.69696969696969,
+    "Wartość oczekiwana": 0.28576429299141093,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -67.67676767676767,
+    "Wartość oczekiwana": 1.1233693640113547,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -65.65656565656565,
+    "Wartość oczekiwana": -1.2618157078529473,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -63.63636363636363,
+    "Wartość oczekiwana": -0.027027371430612845,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -61.61616161616161,
+    "Wartość oczekiwana": 1.2852987268580536,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -59.59595959595959,
+    "Wartość oczekiwana": -1.089718091869074,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -57.57575757575757,
+    "Wartość oczekiwana": -0.33848557755601083,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -55.55555555555555,
+    "Wartość oczekiwana": 1.3838148844894835,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -53.53535353535353,
+    "Wartość oczekiwana": -0.8638566966621437,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -51.515151515151516,
+    "Wartość oczekiwana": -0.6332438096260196,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -49.494949494949495,
+    "Wartość oczekiwana": 1.41405731289644,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -47.474747474747474,
+    "Wartość oczekiwana": -0.5953749200315592,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -45.45454545454545,
+    "Wartość oczekiwana": -0.8967594839839508,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -43.43434343434343,
+    "Wartość oczekiwana": 1.3745339314608487,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -41.41414141414141,
+    "Wartość oczekiwana": -0.2975189355261534,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -39.39393939393939,
+    "Wartość oczekiwana": -1.1160314412990597,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -37.37373737373737,
+    "Wartość oczekiwana": 1.2671947182270396,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -35.35353535353535,
+    "Wartość oczekiwana": 0.015015838368600543,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -33.33333333333333,
+    "Wartość oczekiwana": -1.28024138903233,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -31.313131313131308,
+    "Wartość oczekiwana": 1.0973355031948446,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -29.292929292929287,
+    "Wartość oczekiwana": 0.3268097709164757,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -27.272727272727266,
+    "Wartość oczekiwana": -1.3812876470868303,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -25.252525252525245,
+    "Wartość oczekiwana": 0.8733366862164218,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -23.232323232323225,
+    "Wartość oczekiwana": 0.6224797825139737,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -21.212121212121204,
+    "Wartość oczekiwana": -1.4141848630582148,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -19.191919191919183,
+    "Wartość oczekiwana": 0.6062497704576942,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -17.171717171717162,
+    "Wartość oczekiwana": 0.8874383047385654,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -15.151515151515142,
+    "Wartość oczekiwana": -1.3773099762028505,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -13.13131313131312,
+    "Wartość oczekiwana": 0.30925211075874826,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -11.1111111111111,
+    "Wartość oczekiwana": 1.1086129920006518,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -9.09090909090908,
+    "Wartość oczekiwana": -1.272482294918533,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -7.0707070707070585,
+    "Wartość oczekiwana": -0.003003221847675319,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -5.050505050505038,
+    "Wartość oczekiwana": 1.275091676149208,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -3.030303030303031,
+    "Wartość oczekiwana": -1.1048737369288228,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": -1.0101010101010104,
+    "Wartość oczekiwana": -0.31511038351194454,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 1.0101010101010104,
+    "Wartość oczekiwana": 1.3786607436940224,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 3.030303030303031,
+    "Wartość oczekiwana": -0.8827536606805653,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 5.050505050505052,
+    "Wartość oczekiwana": -0.6116708407427814,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 7.070707070707073,
+    "Wartość oczekiwana": 1.4142103735507434,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 9.090909090909093,
+    "Wartość oczekiwana": -0.6170808772915313,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 11.111111111111114,
+    "Wartość oczekiwana": -0.8780530929091562,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 13.131313131313135,
+    "Wartość oczekiwana": 1.3799866419611717,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 15.151515151515156,
+    "Wartość oczekiwana": -0.32096297208886315,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 17.171717171717177,
+    "Wartość oczekiwana": -1.10111455138996,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 19.191919191919197,
+    "Wartość oczekiwana": 1.2776780564054526,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 21.212121212121218,
+    "Wartość oczekiwana": -0.009009611368919535,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 23.23232323232324,
+    "Wartość oczekiwana": -1.2698499597831758,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 25.25252525252526,
+    "Wartość oczekiwana": 1.1123322491542473,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 27.27272727272728,
+    "Wartość oczekiwana": 0.3033882595047406,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 29.2929292929293,
+    "Wartość oczekiwana": -1.375934363853708,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 31.313131313131322,
+    "Wartość oczekiwana": 0.8921069405783955,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 33.33333333333334,
+    "Wartość oczekiwana": 0.6008177642251833,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 35.353535353535364,
+    "Wartość oczekiwana": -1.4141338425333323,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 37.373737373737384,
+    "Wartość oczekiwana": 0.6278674590210231,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 39.393939393939405,
+    "Wartość oczekiwana": 0.8686045256800794,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 41.414141414141426,
+    "Wartość oczekiwana": -1.3825637356025928,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 43.43434343434345,
+    "Wartość oczekiwana": 0.33265067452629027,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 45.45454545454547,
+    "Wartość oczekiwana": 1.0935366605124908,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 47.47474747474749,
+    "Wartość oczekiwana": -1.2827816277907305,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 49.49494949494951,
+    "Wartość oczekiwana": 0.021021794502374624,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 51.51515151515153,
+    "Wartość oczekiwana": 1.264516618147149,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 53.53535353535355,
+    "Wartość oczekiwana": -1.119710501706584,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 55.55555555555557,
+    "Wartość oczekiwana": -0.2916442446977824,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 57.57575757575759,
+    "Wartość oczekiwana": 1.3731087042862098,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 59.59595959595961,
+    "Wartość oczekiwana": -0.9013958510295386,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 61.616161616161634,
+    "Wartość oczekiwana": -0.5899213360584903,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 63.636363636363654,
+    "Wartość oczekiwana": 1.4139552755280311,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 65.65656565656568,
+    "Wartość oczekiwana": -0.6386087373467506,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 67.6767676767677,
+    "Wartość oczekiwana": -0.8590932848071099,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 69.69696969696972,
+    "Wartość oczekiwana": 1.3850410711784478,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 71.71717171717174,
+    "Wartość oczekiwana": -0.34431437475177895,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 73.73737373737376,
+    "Wartość oczekiwana": -1.0858798661464735,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 75.75757575757578,
+    "Wartość oczekiwana": 1.287792640829194,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 77.7777777777778,
+    "Wartość oczekiwana": -0.033032460820727416,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 79.79797979797982,
+    "Wartość oczekiwana": -1.2590920360652356,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 81.81818181818184,
+    "Wartość oczekiwana": 1.1270079622123998,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 83.83838383838386,
+    "Wartość oczekiwana": 0.2798791864734861,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 85.85858585858588,
+    "Wartość oczekiwana": -1.3701839688753168,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 87.8787878787879,
+    "Wartość oczekiwana": 0.9106197217981754,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 89.89898989898992,
+    "Wartość oczekiwana": 0.578982342468008,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 91.91919191919195,
+    "Wartość oczekiwana": -1.413674685419236,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 93.93939393939394,
+    "Wartość oczekiwana": 0.6493039372381171,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 95.95959595959596,
+    "Wartość oczekiwana": 0.8495200565682185,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 97.97979797979798,
+    "Wartość oczekiwana": -1.3874184699380503,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  },
+  {
+    "X1": 100.0,
+    "Wartość oczekiwana": 0.3559532311779251,
+    "Wynik funkcji": "(sin(X1 ) + cos(X1 ))"
+  }
+]

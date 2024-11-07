@@ -23,3 +23,11 @@ def fun_5(x, y):
 
 def fun_6(x, y):
     return x ** 2 + 3 * x * y - 7 * y + 1
+
+
+def fun_7(x):
+    return np.sin(x + 3.141592 / 2)
+
+
+def fun_8(x):
+    return np.tan(2 * x + 1)

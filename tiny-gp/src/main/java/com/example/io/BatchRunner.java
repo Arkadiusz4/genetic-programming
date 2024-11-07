@@ -12,11 +12,11 @@ import java.nio.file.Paths;
 public class BatchRunner {
 
     public static void main(String[] args) {
-        String folderPath = "../assets/data";
-        String outputFolder = "tiny-gp/output/json";
+        String folderPath = "assets/data";
+        String outputFolder = "tiny-gp/regressions/f6";
         long s = -1;
 
-        String[] substrings = {"f2"};
+        String[] substrings = {"f6"};
 
         processFolder(folderPath, outputFolder, s, substrings);
     }

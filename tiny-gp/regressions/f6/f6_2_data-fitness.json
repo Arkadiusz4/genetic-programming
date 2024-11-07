@@ -1,0 +1,177 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -7756.4938271604915,
+    "Average Fitness": -10319.691399067278
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -7756.4938271604915,
+    "Average Fitness": -10319.691399067278
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -5820.705311143657,
+    "Average Fitness": -10215.076604703105
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -5388.294685577483,
+    "Average Fitness": -10187.333638180087
+  },
+  {
+    "Generacja": 5,
+    "Best Fitness": -5388.294685577483,
+    "Average Fitness": -10199.216817770981
+  },
+  {
+    "Generacja": 6,
+    "Best Fitness": -4831.585770557043,
+    "Average Fitness": -10227.069024777727
+  },
+  {
+    "Generacja": 7,
+    "Best Fitness": -4482.731674850685,
+    "Average Fitness": -10282.447000841965
+  },
+  {
+    "Generacja": 8,
+    "Best Fitness": -3724.9320280048187,
+    "Average Fitness": -10334.569634472675
+  },
+  {
+    "Generacja": 9,
+    "Best Fitness": -3370.160449876089,
+    "Average Fitness": -10354.55952488711
+  },
+  {
+    "Generacja": 10,
+    "Best Fitness": -3136.309013611128,
+    "Average Fitness": -10345.28607588
+  },
+  {
+    "Generacja": 11,
+    "Best Fitness": -2216.44547051317,
+    "Average Fitness": -10486.049279157412
+  },
+  {
+    "Generacja": 12,
+    "Best Fitness": -1807.4925863910935,
+    "Average Fitness": -10379.782479578484
+  },
+  {
+    "Generacja": 13,
+    "Best Fitness": -861.5856609773981,
+    "Average Fitness": -10267.159617873
+  },
+  {
+    "Generacja": 14,
+    "Best Fitness": -740.2865578858591,
+    "Average Fitness": -50772.3601326177
+  },
+  {
+    "Generacja": 15,
+    "Best Fitness": -538.6105475550468,
+    "Average Fitness": -16820.15513399685
+  },
+  {
+    "Generacja": 16,
+    "Best Fitness": -155.87258846270916,
+    "Average Fitness": -17147.272636470152
+  },
+  {
+    "Generacja": 17,
+    "Best Fitness": -32.6637644119039,
+    "Average Fitness": -17898.4117759153
+  },
+  {
+    "Generacja": 18,
+    "Best Fitness": -32.6637644119039,
+    "Average Fitness": -17169.9241886765
+  },
+  {
+    "Generacja": 19,
+    "Best Fitness": -32.6637644119039,
+    "Average Fitness": -20465.756534369513
+  },
+  {
+    "Generacja": 20,
+    "Best Fitness": -32.6637644119039,
+    "Average Fitness": -32570.682369730403
+  },
+  {
+    "Generacja": 21,
+    "Best Fitness": -9.56216455298363,
+    "Average Fitness": -40954.59611895002
+  },
+  {
+    "Generacja": 22,
+    "Best Fitness": -9.56216455298363,
+    "Average Fitness": -21891.539617787887
+  },
+  {
+    "Generacja": 23,
+    "Best Fitness": -9.56216455298363,
+    "Average Fitness": -99221.59468211522
+  },
+  {
+    "Generacja": 24,
+    "Best Fitness": -9.529647713874784,
+    "Average Fitness": -395557.18168611627
+  },
+  {
+    "Generacja": 25,
+    "Best Fitness": -9.529647713874784,
+    "Average Fitness": -2257748.3288339796
+  },
+  {
+    "Generacja": 26,
+    "Best Fitness": -9.529647713874784,
+    "Average Fitness": -1701389.0921403924
+  },
+  {
+    "Generacja": 27,
+    "Best Fitness": -7.893877806910634,
+    "Average Fitness": -65256.84602140577
+  },
+  {
+    "Generacja": 28,
+    "Best Fitness": -7.893877806910634,
+    "Average Fitness": -65441.371774140884
+  },
+  {
+    "Generacja": 29,
+    "Best Fitness": -7.569602849473633,
+    "Average Fitness": -38182.057583910304
+  },
+  {
+    "Generacja": 30,
+    "Best Fitness": -3.5301720612875513,
+    "Average Fitness": -300425.26845893986
+  },
+  {
+    "Generacja": 31,
+    "Best Fitness": -2.8023513105008346,
+    "Average Fitness": -223099.58950930028
+  },
+  {
+    "Generacja": 32,
+    "Best Fitness": -2.8023513105008346,
+    "Average Fitness": -3934991.0491557545
+  },
+  {
+    "Generacja": 33,
+    "Best Fitness": -2.628737726405821,
+    "Average Fitness": -4223706.197643718
+  },
+  {
+    "Generacja": 34,
+    "Best Fitness": -2.60830337482824,
+    "Average Fitness": -9379198.096820334
+  },
+  {
+    "Generacja": 35,
+    "Best Fitness": -0.23577097037667993,
+    "Average Fitness": -1.0901397481515866E7
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -3284.031081768693,
+    "Average Fitness": -15148.988327093353
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -3284.031081768693,
+    "Average Fitness": -15148.988327093353
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -2976.372388827146,
+    "Average Fitness": -14620.264043791722
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -3.126388037344441E-13,
+    "Average Fitness": -14181.73967321126
+  }
+]

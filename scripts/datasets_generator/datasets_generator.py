@@ -3,7 +3,7 @@ from fileinput import filename
 import numpy as np
 import pandas as pd
 
-from functions import fun_1, fun_2, fun_3, fun_4, fun_5, fun_6
+from functions import fun_1, fun_2, fun_3, fun_4, fun_5, fun_6, fun_7, fun_8
 
 
 def generate_dat_file_single_var(func, filename, domain, version, num_individuals, var_min, var_max, num_generations,
@@ -69,6 +69,14 @@ domains_func6 = [
     (-1000, 1000)
 ]
 
+domains_func7 = [
+    (-3.14, 3.14),
+]
+
+domains_func8 = [
+    (-3.14 / 2, 3.14 / 2),
+]
+
 file_counter = 1
 for domain in domains_func1:
     file_name = f"../../assets/data/f1_{file_counter}_data.dat"
@@ -94,13 +102,25 @@ for domain in domains_func4:
     file_counter += 1
 
 file_counter = 1
-for domain in domains_func4:
+for domain in domains_func5:
     file_name = f"../../assets/data/f5_{file_counter}_data.dat"
     generate_dat_file_two_vars(fun_5, file_name, domain, domain, 2, 100, -5, 5, 100, 10)
     file_counter += 1
 
 file_counter = 1
-for domain in domains_func4:
+for domain in domains_func6:
     file_name = f"../../assets/data/f6_{file_counter}_data.dat"
     generate_dat_file_two_vars(fun_6, file_name, domain, domain, 2, 100, -5, 5, 100, 10)
+    file_counter += 1
+
+file_counter = 1
+for domain in domains_func7:
+    file_name = f"../../assets/data/f7_{file_counter}_data.dat"
+    generate_dat_file_single_var(fun_7, file_name, domain, 1, 100, -5, 5, 100, 100)
+    file_counter += 1
+
+file_counter = 1
+for domain in domains_func8:
+    file_name = f"../../assets/data/f8_{file_counter}_data.dat"
+    generate_dat_file_single_var(fun_8, file_name, domain, 1, 100, -5, 5, 100, 100)
     file_counter += 1

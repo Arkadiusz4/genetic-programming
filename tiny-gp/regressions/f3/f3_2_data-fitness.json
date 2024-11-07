@@ -1,0 +1,177 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -35.62664226806133,
+    "Average Fitness": -606.780044854383
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -35.62664226806133,
+    "Average Fitness": -606.780044854383
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -30.572489212288733,
+    "Average Fitness": -322.51964838021553
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -29.67723693272402,
+    "Average Fitness": -256.01802445929576
+  },
+  {
+    "Generacja": 5,
+    "Best Fitness": -25.362787859885014,
+    "Average Fitness": -210.28016563907005
+  },
+  {
+    "Generacja": 6,
+    "Best Fitness": -25.362787859885014,
+    "Average Fitness": -189.25581892116563
+  },
+  {
+    "Generacja": 7,
+    "Best Fitness": -24.35172073085659,
+    "Average Fitness": -165.63387609404168
+  },
+  {
+    "Generacja": 8,
+    "Best Fitness": -24.35172073085659,
+    "Average Fitness": -148.16823715919287
+  },
+  {
+    "Generacja": 9,
+    "Best Fitness": -24.293250762952795,
+    "Average Fitness": -135.98769282994195
+  },
+  {
+    "Generacja": 10,
+    "Best Fitness": -7.163660129220265,
+    "Average Fitness": -151.7448769403203
+  },
+  {
+    "Generacja": 11,
+    "Best Fitness": -7.163660129220265,
+    "Average Fitness": -166.8822205853741
+  },
+  {
+    "Generacja": 12,
+    "Best Fitness": -7.163660129220265,
+    "Average Fitness": -205.22728396336737
+  },
+  {
+    "Generacja": 13,
+    "Best Fitness": -7.163660129220265,
+    "Average Fitness": -176.99896986006462
+  },
+  {
+    "Generacja": 14,
+    "Best Fitness": -4.56427415266112,
+    "Average Fitness": -175.22052857165053
+  },
+  {
+    "Generacja": 15,
+    "Best Fitness": -4.2647823143371735,
+    "Average Fitness": -178.1694525383395
+  },
+  {
+    "Generacja": 16,
+    "Best Fitness": -3.4994026928903823,
+    "Average Fitness": -177.76936902748022
+  },
+  {
+    "Generacja": 17,
+    "Best Fitness": -3.4994026928903823,
+    "Average Fitness": -173.97255841915958
+  },
+  {
+    "Generacja": 18,
+    "Best Fitness": -3.4994026928903823,
+    "Average Fitness": -164.5438587831628
+  },
+  {
+    "Generacja": 19,
+    "Best Fitness": -3.4994026928903823,
+    "Average Fitness": -153.96539408438562
+  },
+  {
+    "Generacja": 20,
+    "Best Fitness": -3.080457038628208,
+    "Average Fitness": -136.97245635696476
+  },
+  {
+    "Generacja": 21,
+    "Best Fitness": -2.3675756973773323,
+    "Average Fitness": -123.82935328040946
+  },
+  {
+    "Generacja": 22,
+    "Best Fitness": -1.2770338079655335,
+    "Average Fitness": -115.82283533552027
+  },
+  {
+    "Generacja": 23,
+    "Best Fitness": -1.2770338079655335,
+    "Average Fitness": -107.52717424849733
+  },
+  {
+    "Generacja": 24,
+    "Best Fitness": -1.0780914355517899,
+    "Average Fitness": -103.49431197993982
+  },
+  {
+    "Generacja": 25,
+    "Best Fitness": -1.0780914355517899,
+    "Average Fitness": -90.80401497987447
+  },
+  {
+    "Generacja": 26,
+    "Best Fitness": -1.0780914355517899,
+    "Average Fitness": -64.75030650400653
+  },
+  {
+    "Generacja": 27,
+    "Best Fitness": -0.964858202557732,
+    "Average Fitness": -60.96473666948055
+  },
+  {
+    "Generacja": 28,
+    "Best Fitness": -0.9416012528159606,
+    "Average Fitness": -54.42878500406941
+  },
+  {
+    "Generacja": 29,
+    "Best Fitness": -0.9396085983476395,
+    "Average Fitness": -54.058513880645734
+  },
+  {
+    "Generacja": 30,
+    "Best Fitness": -0.8804958025662483,
+    "Average Fitness": -50.05017722988416
+  },
+  {
+    "Generacja": 31,
+    "Best Fitness": -0.7407722073255324,
+    "Average Fitness": -48.06422053701839
+  },
+  {
+    "Generacja": 32,
+    "Best Fitness": -0.7288262602119846,
+    "Average Fitness": -54.13407751564444
+  },
+  {
+    "Generacja": 33,
+    "Best Fitness": -0.5220562189684558,
+    "Average Fitness": -57.77082643993684
+  },
+  {
+    "Generacja": 34,
+    "Best Fitness": -0.521709458202585,
+    "Average Fitness": -57.004940812366435
+  },
+  {
+    "Generacja": 35,
+    "Best Fitness": -0.44172862516405464,
+    "Average Fitness": -46.22797786414473
+  }
+]

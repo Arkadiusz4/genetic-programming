@@ -1,0 +1,502 @@
+[
+  {
+    "X1": -3.14,
+    "Wartość oczekiwana": -0.999998732247957,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -3.0765656565656565,
+    "Wartość oczekiwana": -0.9978865109719619,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -3.0131313131313133,
+    "Wartość oczekiwana": -0.9917602245637573,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.9496969696969697,
+    "Wartość oczekiwana": -0.9816445164195516,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.8862626262626265,
+    "Wartość oczekiwana": -0.9675800776509121,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.822828282828283,
+    "Wartość oczekiwana": -0.9496234834020505,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.7593939393939397,
+    "Wartość oczekiwana": -0.9278469652725276,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.695959595959596,
+    "Wartość oczekiwana": -0.9023381207608199,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.6325252525252525,
+    "Wartość oczekiwana": -0.873199560897532,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.5690909090909093,
+    "Wartość oczekiwana": -0.8405484974856741,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.5056565656565657,
+    "Wartość oczekiwana": -0.8045162716083547,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.442222222222222,
+    "Wartość oczekiwana": -0.7652478253005046,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.378787878787879,
+    "Wartość oczekiwana": -0.722901118509861,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.3153535353535353,
+    "Wartość oczekiwana": -0.6776464936925276,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.251919191919192,
+    "Wartość oczekiwana": -0.6296659905990709,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.1884848484848485,
+    "Wartość oczekiwana": -0.5791526140074641,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.1250505050505053,
+    "Wartość oczekiwana": -0.526309557348481,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -2.0616161616161617,
+    "Wartość oczekiwana": -0.47134938534654786,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.9981818181818183,
+    "Wartość oczekiwana": -0.4144931789639466,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.9347474747474747,
+    "Wartość oczekiwana": -0.3559696460878772,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.8713131313131313,
+    "Wartość oczekiwana": -0.29601420153770924,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.8078787878787879,
+    "Wartość oczekiwana": -0.23486802009314836,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.7444444444444445,
+    "Wartość oczekiwana": -0.17277706635257886,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.681010101010101,
+    "Wartość oczekiwana": -0.10999110532404048,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.6175757575757577,
+    "Wartość oczekiwana": -0.04676269772880346,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.554141414141414,
+    "Wartość oczekiwana": 0.016653815940999732,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.4907070707070706,
+    "Wartość oczekiwana": 0.08000333852398875,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.4272727272727272,
+    "Wartość oczekiwana": 0.14303104233490446,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.3638383838383838,
+    "Wartość oczekiwana": 0.2054833942259902,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.3004040404040405,
+    "Wartość oczekiwana": 0.2671091754410106,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.2369696969696968,
+    "Wartość oczekiwana": 0.3276604921594756,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.1735353535353534,
+    "Wartość oczekiwana": 0.3868937726660882,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.11010101010101,
+    "Wartość oczekiwana": 0.4445707471342362,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -1.0466666666666664,
+    "Wartość oczekiwana": 0.5004594060822821,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.9832323232323232,
+    "Wartość oczekiwana": 0.5543349336471961,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.9197979797979796,
+    "Wartość oczekiwana": 0.6059806119213815,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.8563636363636364,
+    "Wartość oczekiwana": 0.6551886927149277,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.7929292929292928,
+    "Wartość oczekiwana": 0.7017612332365817,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.7294949494949492,
+    "Wartość oczekiwana": 0.7455108923318421,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.666060606060606,
+    "Wartość oczekiwana": 0.7862616840752659,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.6026262626262624,
+    "Wartość oczekiwana": 0.8238496856856068,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.5391919191919192,
+    "Wartość oczekiwana": 0.8581236969161482,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.4757575757575756,
+    "Wartość oczekiwana": 0.8889458482677957,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.412323232323232,
+    "Wartość oczekiwana": 0.9161921555783419,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.3488888888888888,
+    "Wartość oczekiwana": 0.9397530187570409,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.2854545454545452,
+    "Wartość oczekiwana": 0.9595336626582922,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.222020202020202,
+    "Wartość oczekiwana": 0.9754545183209927,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.15858585858585839,
+    "Wartość oczekiwana": 0.9874515430399973,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.09515151515151521,
+    "Wartość oczekiwana": 0.9954764779821766,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": -0.03171717171717159,
+    "Wartość oczekiwana": 0.999497042310797,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.03171717171717203,
+    "Wartość oczekiwana": 0.9994970630373412,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.09515151515151521,
+    "Wartość oczekiwana": 0.9954765400784353,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.15858585858585883,
+    "Wartość oczekiwana": 0.9874516462561841,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.222020202020202,
+    "Wartość oczekiwana": 0.9754546622419138,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.2854545454545456,
+    "Wartość oczekiwana": 0.9595338467050158,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.34888888888888925,
+    "Wartość oczekiwana": 0.9397532421892268,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.4123232323232324,
+    "Wartość oczekiwana": 0.9161924174972194,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.47575757575757605,
+    "Wartość oczekiwana": 0.8889461476197784,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.5391919191919192,
+    "Wartość oczekiwana": 0.8581240324970733,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.6026262626262628,
+    "Wartość oczekiwana": 0.8238500561455768,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.6660606060606065,
+    "Wartość oczekiwana": 0.7862620879240814,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.7294949494949496,
+    "Wartość oczekiwana": 0.7455113279449941,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.7929292929292933,
+    "Wartość oczekiwana": 0.7017616988617871,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.8563636363636364,
+    "Wartość oczekiwana": 0.6551891864791785,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.9197979797979801,
+    "Wartość oczekiwana": 0.6059811318384772,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 0.9832323232323232,
+    "Wartość oczekiwana": 0.5543354776257364,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.0466666666666673,
+    "Wartość oczekiwana": 0.5004599719340757,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.1101010101010105,
+    "Wartość oczekiwana": 0.44457133258310766,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.1735353535353537,
+    "Wartość oczekiwana": 0.38689437535703014,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.2369696969696968,
+    "Wartość oczekiwana": 0.3276611096681235,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.300404040404041,
+    "Wartość oczekiwana": 0.26710980528339395,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.363838383838384,
+    "Wartość oczekiwana": 0.20548403386852673,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.4272727272727272,
+    "Wartość oczekiwana": 0.14303168920458928,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.4907070707070713,
+    "Wartość oczekiwana": 0.08000399001874448,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.5541414141414145,
+    "Wartość oczekiwana": 0.016654469440146095,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.6175757575757577,
+    "Wartość oczekiwana": -0.046762044854010205,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.6810101010101017,
+    "Wartość oczekiwana": -0.1099904556998339,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.744444444444445,
+    "Wartość oczekiwana": -0.17277642259211481,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.807878787878788,
+    "Wartość oczekiwana": -0.23486738478599634,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.8713131313131313,
+    "Wartość oczekiwana": -0.29601357723943467,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.9347474747474753,
+    "Wartość oczekiwana": -0.35596903530976237,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 1.9981818181818185,
+    "Wartość oczekiwana": -0.4144925841628863,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.0616161616161617,
+    "Wartość oczekiwana": -0.4713488089151693,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.1250505050505057,
+    "Wartość oczekiwana": -0.5263090016055184,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.188484848484849,
+    "Wartość oczekiwana": -0.5791520811884303,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.251919191919192,
+    "Wartość oczekiwana": -0.6296654828472658,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.315353535353536,
+    "Wartość oczekiwana": -0.6776460130504177,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.3787878787878793,
+    "Wartość oczekiwana": -0.7229006669108603,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.4422222222222225,
+    "Wartość oczekiwana": -0.7652474045612004,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.5056565656565657,
+    "Wartość oczekiwana": -0.8045158834211988,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.5690909090909098,
+    "Wartość oczekiwana": -0.8405481434121758,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.632525252525253,
+    "Wartość oczekiwana": -0.8731992423619753,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.695959595959596,
+    "Wartość oczekiwana": -0.9023378390445351,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.75939393939394,
+    "Wartość oczekiwana": -0.9278467215087378,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.8228282828282834,
+    "Wartość oczekiwana": -0.9496232785713116,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.8862626262626265,
+    "Wartość oczekiwana": -0.9675799125771694,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 2.9496969696969697,
+    "Wartość oczekiwana": -0.9816443917668252,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 3.0131313131313138,
+    "Wartość oczekiwana": -0.9917601408334712,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 3.076565656565657,
+    "Wartość oczekiwana": -0.9978864685009268,
+    "Wynik funkcji": "cos(x1)"
+  },
+  {
+    "X1": 3.14,
+    "Wartość oczekiwana": -0.9999987312070153,
+    "Wynik funkcji": "cos(x1)"
+  }
+]

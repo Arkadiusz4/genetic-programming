@@ -5,15 +5,64 @@ import matplotlib.pyplot as plt
 import numpy as np
 from math import sin, cos, tan, exp, log, sqrt
 from mpl_toolkits.mplot3d import Axes3D
+import warnings
 
-math_context = {"sin": sin, "cos": cos, "tan": tan, "exp": exp, "log": log, "sqrt": sqrt}
 
-
-def evaluate_expression(expr, x_value):
+def csc(x):
     try:
-        return eval(expr.replace('X1', str(x_value)), {}, math_context)
+        return 1 / sin(x)
+    except ZeroDivisionError:
+        print(f"Błąd: dzielenie przez zero w funkcji 'csc' dla x={x}.")
+        return np.nan
+
+
+def sec(x):
+    try:
+        return 1 / cos(x)
+    except ZeroDivisionError:
+        print(f"Błąd: dzielenie przez zero w funkcji 'sec' dla x={x}.")
+        return np.nan
+
+
+math_context = {
+    "sin": sin,
+    "cos": cos,
+    "tan": tan,
+    "exp": exp,
+    "log": log,
+    "sqrt": sqrt,
+    "csc": csc,
+    "sec": sec
+}
+
+
+def evaluate_expression(expr, x1_value, x2_value=None):
+    try:
+        expr = expr.replace('\n', '').strip()
+        expr = expr.replace('^', '**')
+        expr = expr.replace('X1', 'x1')
+        expr = expr.replace('X2', 'x2')
+        expr = expr.replace('Csc', 'csc')
+        expr = expr.replace('Sec', 'sec')
+
+        math_context_with_values = math_context.copy()
+        math_context_with_values['x1'] = x1_value
+        if x2_value is not None:
+            math_context_with_values['x2'] = x2_value
+
+        result = eval(expr, {}, math_context_with_values)
+
+        if np.isinf(result) or np.isnan(result):
+            print(f"Wynik dla x1={x1_value}, x2={x2_value} jest nieokreślony (inf lub nan).")
+            return np.nan
+        else:
+            return result
+
+    except ZeroDivisionError:
+        print(f"Dzielenie przez zero w wyrażeniu '{expr}' z x1={x1_value}, x2={x2_value}.")
+        return np.nan
     except Exception as e:
-        print(f"Błąd w obliczeniu wyrażenia '{expr}' z X1={x_value}: {e}")
+        print(f"Błąd w obliczeniu wyrażenia '{expr}' z x1={x1_value}, x2={x2_value}: {e}")
         return np.nan
 
 
@@ -107,5 +156,5 @@ def process_folder(base_folder_path):
             draw_fitness_plot(data, plot_path)
 
 
-base_folder_path = '/Users/amika/Documents/projects-uni/genetic-programming/tiny-gp/tiny-gp/output/json'
+base_folder_path = 'path/to/folder'
 process_folder(base_folder_path)

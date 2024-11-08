@@ -74,7 +74,7 @@ domains_func7 = [
 ]
 
 domains_func8 = [
-    (-3.14 / 2, 3.14 / 2),
+    (-np.pi / 2 + 0.1, np.pi / 2 - 0.1),
 ]
 
 file_counter = 1

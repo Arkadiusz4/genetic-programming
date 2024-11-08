@@ -1,0 +1,177 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -20.805309205393673,
+    "Average Fitness": -608.628308012118
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -20.805309205393673,
+    "Average Fitness": -608.628308012118
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -16.182244592428926,
+    "Average Fitness": -277.18931787941835
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -13.88107653103933,
+    "Average Fitness": -191.38898449932412
+  },
+  {
+    "Generacja": 5,
+    "Best Fitness": -13.88107653103933,
+    "Average Fitness": -157.5610358019187
+  },
+  {
+    "Generacja": 6,
+    "Best Fitness": -13.88107653103933,
+    "Average Fitness": -131.29407192388615
+  },
+  {
+    "Generacja": 7,
+    "Best Fitness": -13.88107653103933,
+    "Average Fitness": -97.1264303662598
+  },
+  {
+    "Generacja": 8,
+    "Best Fitness": -10.704505095699412,
+    "Average Fitness": -63.76284613501179
+  },
+  {
+    "Generacja": 9,
+    "Best Fitness": -8.824400251374417,
+    "Average Fitness": -52.18784692142665
+  },
+  {
+    "Generacja": 10,
+    "Best Fitness": -4.373944813051494,
+    "Average Fitness": -58.47188234033767
+  },
+  {
+    "Generacja": 11,
+    "Best Fitness": -4.070777868432884,
+    "Average Fitness": -75.54672375606337
+  },
+  {
+    "Generacja": 12,
+    "Best Fitness": -3.7161325268463608,
+    "Average Fitness": -85.28556998004284
+  },
+  {
+    "Generacja": 13,
+    "Best Fitness": -2.9178134436462253,
+    "Average Fitness": -83.78313294233077
+  },
+  {
+    "Generacja": 14,
+    "Best Fitness": -2.9178134436462253,
+    "Average Fitness": -84.64576851560874
+  },
+  {
+    "Generacja": 15,
+    "Best Fitness": -2.33443078682452,
+    "Average Fitness": -79.7568337869107
+  },
+  {
+    "Generacja": 16,
+    "Best Fitness": -2.33443078682452,
+    "Average Fitness": -81.31069287486311
+  },
+  {
+    "Generacja": 17,
+    "Best Fitness": -2.33443078682452,
+    "Average Fitness": -74.00119878576872
+  },
+  {
+    "Generacja": 18,
+    "Best Fitness": -2.3224324652963055,
+    "Average Fitness": -66.35839292234617
+  },
+  {
+    "Generacja": 19,
+    "Best Fitness": -2.078369547552067,
+    "Average Fitness": -62.761590168619826
+  },
+  {
+    "Generacja": 20,
+    "Best Fitness": -1.493900129194957,
+    "Average Fitness": -54.032920624962486
+  },
+  {
+    "Generacja": 21,
+    "Best Fitness": -1.493900129194957,
+    "Average Fitness": -56.94504223796379
+  },
+  {
+    "Generacja": 22,
+    "Best Fitness": -1.4712787144253217,
+    "Average Fitness": -44.346736830394704
+  },
+  {
+    "Generacja": 23,
+    "Best Fitness": -1.276206110424556,
+    "Average Fitness": -44.555064647609406
+  },
+  {
+    "Generacja": 24,
+    "Best Fitness": -0.868965449937904,
+    "Average Fitness": -37.2439678135452
+  },
+  {
+    "Generacja": 25,
+    "Best Fitness": -0.868965449937904,
+    "Average Fitness": -30.91141182786138
+  },
+  {
+    "Generacja": 26,
+    "Best Fitness": -0.8611267573341609,
+    "Average Fitness": -26.13663268260504
+  },
+  {
+    "Generacja": 27,
+    "Best Fitness": -0.8611267573341609,
+    "Average Fitness": -23.037640072724294
+  },
+  {
+    "Generacja": 28,
+    "Best Fitness": -0.8351281997647793,
+    "Average Fitness": -18.146501907060888
+  },
+  {
+    "Generacja": 29,
+    "Best Fitness": -0.8221646550074859,
+    "Average Fitness": -20.03395202974755
+  },
+  {
+    "Generacja": 30,
+    "Best Fitness": -0.7729887562310055,
+    "Average Fitness": -17.09217277032999
+  },
+  {
+    "Generacja": 31,
+    "Best Fitness": -0.6390039422814413,
+    "Average Fitness": -13.95120477110625
+  },
+  {
+    "Generacja": 32,
+    "Best Fitness": -0.5799367919268351,
+    "Average Fitness": -12.819791070743937
+  },
+  {
+    "Generacja": 33,
+    "Best Fitness": -0.55002285288667,
+    "Average Fitness": -14.686805789779063
+  },
+  {
+    "Generacja": 34,
+    "Best Fitness": -0.5297360003438522,
+    "Average Fitness": -12.096099375740163
+  },
+  {
+    "Generacja": 35,
+    "Best Fitness": -0.49043728998194247,
+    "Average Fitness": -9.00897285732019
+  }
+]

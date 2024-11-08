@@ -1,0 +1,37 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -29.40545279094061,
+    "Average Fitness": -424.14109130887977
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -29.40545279094061,
+    "Average Fitness": -424.14109130887977
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -29.40545279094061,
+    "Average Fitness": -205.59238697236
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -28.41944297725779,
+    "Average Fitness": -151.49036111938798
+  },
+  {
+    "Generacja": 5,
+    "Best Fitness": -3.6458026217051307,
+    "Average Fitness": -134.65017887041105
+  },
+  {
+    "Generacja": 6,
+    "Best Fitness": -3.6458026217051307,
+    "Average Fitness": -125.41530653771643
+  },
+  {
+    "Generacja": 7,
+    "Best Fitness": -3.3306690738754696E-15,
+    "Average Fitness": -116.05209459026631
+  }
+]

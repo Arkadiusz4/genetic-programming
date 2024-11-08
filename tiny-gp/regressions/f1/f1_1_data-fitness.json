@@ -1,0 +1,502 @@
+[
+  {
+    "Generacja": 1,
+    "Best Fitness": -98443.13749436142,
+    "Average Fitness": -130531.94379831092
+  },
+  {
+    "Generacja": 2,
+    "Best Fitness": -98443.13749436142,
+    "Average Fitness": -130531.94379831092
+  },
+  {
+    "Generacja": 3,
+    "Best Fitness": -86362.47829694855,
+    "Average Fitness": -130469.1646130223
+  },
+  {
+    "Generacja": 4,
+    "Best Fitness": -66055.42204703907,
+    "Average Fitness": -130378.29253310444
+  },
+  {
+    "Generacja": 5,
+    "Best Fitness": -35889.64158510679,
+    "Average Fitness": -130131.4411943407
+  },
+  {
+    "Generacja": 6,
+    "Best Fitness": -7683.359710938084,
+    "Average Fitness": -129526.65412249559
+  },
+  {
+    "Generacja": 7,
+    "Best Fitness": -4101.199549880405,
+    "Average Fitness": -129439.43803140412
+  },
+  {
+    "Generacja": 8,
+    "Best Fitness": -3527.9238969136645,
+    "Average Fitness": -136944.57698547817
+  },
+  {
+    "Generacja": 9,
+    "Best Fitness": -3527.9238969136645,
+    "Average Fitness": -161762.97912520706
+  },
+  {
+    "Generacja": 10,
+    "Best Fitness": -3282.4367197342754,
+    "Average Fitness": -245568.07577890766
+  },
+  {
+    "Generacja": 11,
+    "Best Fitness": -1106.7649731801794,
+    "Average Fitness": -423668.6313353557
+  },
+  {
+    "Generacja": 12,
+    "Best Fitness": -1106.7649731801794,
+    "Average Fitness": -6398474.853895448
+  },
+  {
+    "Generacja": 13,
+    "Best Fitness": -1106.7649731801794,
+    "Average Fitness": -1392071.878671095
+  },
+  {
+    "Generacja": 14,
+    "Best Fitness": -977.3896371577405,
+    "Average Fitness": -4.6486924506220765E7
+  },
+  {
+    "Generacja": 15,
+    "Best Fitness": -865.2407982831137,
+    "Average Fitness": -6.711546140119626E7
+  },
+  {
+    "Generacja": 16,
+    "Best Fitness": -865.2407982831137,
+    "Average Fitness": -3.168757237828518E8
+  },
+  {
+    "Generacja": 17,
+    "Best Fitness": -865.2407982831137,
+    "Average Fitness": -1.9603802894010184E9
+  },
+  {
+    "Generacja": 18,
+    "Best Fitness": -843.6861484707966,
+    "Average Fitness": -2.5693003047731802E8
+  },
+  {
+    "Generacja": 19,
+    "Best Fitness": -843.6861484707966,
+    "Average Fitness": -3.453766915038588E9
+  },
+  {
+    "Generacja": 20,
+    "Best Fitness": -715.8497812712859,
+    "Average Fitness": -2.5127299518345153E8
+  },
+  {
+    "Generacja": 21,
+    "Best Fitness": -702.5403757552989,
+    "Average Fitness": -1.0888673782998283E10
+  },
+  {
+    "Generacja": 22,
+    "Best Fitness": -462.94496416369986,
+    "Average Fitness": -2.0191674711761364E8
+  },
+  {
+    "Generacja": 23,
+    "Best Fitness": -462.06963075862495,
+    "Average Fitness": -1.5609350067059883E10
+  },
+  {
+    "Generacja": 24,
+    "Best Fitness": -277.77724148481366,
+    "Average Fitness": -3.706616781856093E9
+  },
+  {
+    "Generacja": 25,
+    "Best Fitness": -180.78726015148214,
+    "Average Fitness": -2.752447604392155E9
+  },
+  {
+    "Generacja": 26,
+    "Best Fitness": -72.09415279693091,
+    "Average Fitness": -4.8226716948431206E8
+  },
+  {
+    "Generacja": 27,
+    "Best Fitness": -72.09415279693091,
+    "Average Fitness": -1.5307093213510853E10
+  },
+  {
+    "Generacja": 28,
+    "Best Fitness": -72.03511259510373,
+    "Average Fitness": -9.831877723872534E11
+  },
+  {
+    "Generacja": 29,
+    "Best Fitness": -43.74530638944403,
+    "Average Fitness": -2.0940003704423494E9
+  },
+  {
+    "Generacja": 30,
+    "Best Fitness": -41.52652316211906,
+    "Average Fitness": -4.72696621242074E7
+  },
+  {
+    "Generacja": 31,
+    "Best Fitness": -32.735094051813185,
+    "Average Fitness": -4.0119464824409056E9
+  },
+  {
+    "Generacja": 32,
+    "Best Fitness": -32.735094051813185,
+    "Average Fitness": -4.2806361316315727E9
+  },
+  {
+    "Generacja": 33,
+    "Best Fitness": -27.200724070776808,
+    "Average Fitness": -2.1998862005463896E9
+  },
+  {
+    "Generacja": 34,
+    "Best Fitness": -27.190752621512154,
+    "Average Fitness": -8.814105763249495E9
+  },
+  {
+    "Generacja": 35,
+    "Best Fitness": -23.68487237286587,
+    "Average Fitness": -1.4607466211368545E12
+  },
+  {
+    "Generacja": 36,
+    "Best Fitness": -23.68487237286587,
+    "Average Fitness": -2.2201206137585316E10
+  },
+  {
+    "Generacja": 37,
+    "Best Fitness": -21.383292366090448,
+    "Average Fitness": -6.03795819016183E8
+  },
+  {
+    "Generacja": 38,
+    "Best Fitness": -21.383292366090448,
+    "Average Fitness": -3.9260688492210156E8
+  },
+  {
+    "Generacja": 39,
+    "Best Fitness": -16.30467948992477,
+    "Average Fitness": -1.150526126886792E9
+  },
+  {
+    "Generacja": 40,
+    "Best Fitness": -16.30467948992477,
+    "Average Fitness": -5.390278124224675E8
+  },
+  {
+    "Generacja": 41,
+    "Best Fitness": -15.953418159426327,
+    "Average Fitness": -4.920421930243644E11
+  },
+  {
+    "Generacja": 42,
+    "Best Fitness": -15.35964949488647,
+    "Average Fitness": -6.995781790837483E9
+  },
+  {
+    "Generacja": 43,
+    "Best Fitness": -15.358471121344422,
+    "Average Fitness": -1.2799693607189634E10
+  },
+  {
+    "Generacja": 44,
+    "Best Fitness": -13.430553565175735,
+    "Average Fitness": -8.677888932940855E10
+  },
+  {
+    "Generacja": 45,
+    "Best Fitness": -13.393656305872389,
+    "Average Fitness": -3.705763382838629E10
+  },
+  {
+    "Generacja": 46,
+    "Best Fitness": -12.56005797960917,
+    "Average Fitness": -8.627336371585186E8
+  },
+  {
+    "Generacja": 47,
+    "Best Fitness": -12.56005797960917,
+    "Average Fitness": -4409437.01071808
+  },
+  {
+    "Generacja": 48,
+    "Best Fitness": -12.56005797960917,
+    "Average Fitness": -3164713.9254826903
+  },
+  {
+    "Generacja": 49,
+    "Best Fitness": -12.32391388038686,
+    "Average Fitness": -4408359.95760377
+  },
+  {
+    "Generacja": 50,
+    "Best Fitness": -11.735651382985052,
+    "Average Fitness": -4.517217513956688E9
+  },
+  {
+    "Generacja": 51,
+    "Best Fitness": -11.38435889690964,
+    "Average Fitness": -1.2074694960662585E11
+  },
+  {
+    "Generacja": 52,
+    "Best Fitness": -11.231100070968674,
+    "Average Fitness": -6.758668877215935E12
+  },
+  {
+    "Generacja": 53,
+    "Best Fitness": -11.231100070968674,
+    "Average Fitness": -1.9849211153902538E9
+  },
+  {
+    "Generacja": 54,
+    "Best Fitness": -11.18230980994943,
+    "Average Fitness": -5.401890991817201E10
+  },
+  {
+    "Generacja": 55,
+    "Best Fitness": -10.706904920899532,
+    "Average Fitness": -2.481872443359839E10
+  },
+  {
+    "Generacja": 56,
+    "Best Fitness": -10.672226310249364,
+    "Average Fitness": -8.64640642837614E9
+  },
+  {
+    "Generacja": 57,
+    "Best Fitness": -10.672226310249364,
+    "Average Fitness": -1.1179963482879871E13
+  },
+  {
+    "Generacja": 58,
+    "Best Fitness": -10.637559378245104,
+    "Average Fitness": -2.5272839987606373E9
+  },
+  {
+    "Generacja": 59,
+    "Best Fitness": -10.576791671578773,
+    "Average Fitness": -2.939467391514621E9
+  },
+  {
+    "Generacja": 60,
+    "Best Fitness": -10.383310473180202,
+    "Average Fitness": -4.624949920748844E10
+  },
+  {
+    "Generacja": 61,
+    "Best Fitness": -10.249396349562765,
+    "Average Fitness": -5.02415589721435E10
+  },
+  {
+    "Generacja": 62,
+    "Best Fitness": -9.582486036544275,
+    "Average Fitness": -4.105612281908497E11
+  },
+  {
+    "Generacja": 63,
+    "Best Fitness": -8.758810055042682,
+    "Average Fitness": -5.555051007038434E9
+  },
+  {
+    "Generacja": 64,
+    "Best Fitness": -8.758810055042682,
+    "Average Fitness": -5.637386137499502E9
+  },
+  {
+    "Generacja": 65,
+    "Best Fitness": -8.600399563641965,
+    "Average Fitness": -5.833974249928821E11
+  },
+  {
+    "Generacja": 66,
+    "Best Fitness": -8.163688466052868,
+    "Average Fitness": -5.83181868734448E11
+  },
+  {
+    "Generacja": 67,
+    "Best Fitness": -7.843279299383869,
+    "Average Fitness": -4.81413441113706E8
+  },
+  {
+    "Generacja": 68,
+    "Best Fitness": -7.339012227015502,
+    "Average Fitness": -3237919.6131665907
+  },
+  {
+    "Generacja": 69,
+    "Best Fitness": -6.901379751957307,
+    "Average Fitness": -6.172058640988291E11
+  },
+  {
+    "Generacja": 70,
+    "Best Fitness": -6.901379751957307,
+    "Average Fitness": -6.806834156655607E11
+  },
+  {
+    "Generacja": 71,
+    "Best Fitness": -6.822913008377801,
+    "Average Fitness": -789671.8034141514
+  },
+  {
+    "Generacja": 72,
+    "Best Fitness": -6.772336988373286,
+    "Average Fitness": -6.555308758948668E11
+  },
+  {
+    "Generacja": 73,
+    "Best Fitness": -6.683803294315284,
+    "Average Fitness": -4.611032807339874E9
+  },
+  {
+    "Generacja": 74,
+    "Best Fitness": -6.514719651623327,
+    "Average Fitness": -5.2849178919527285E7
+  },
+  {
+    "Generacja": 75,
+    "Best Fitness": -6.139794013509808,
+    "Average Fitness": -1.876241532671979E9
+  },
+  {
+    "Generacja": 76,
+    "Best Fitness": -6.136392374966742,
+    "Average Fitness": -1.841292967816226E9
+  },
+  {
+    "Generacja": 77,
+    "Best Fitness": -6.018122473018369,
+    "Average Fitness": -1.0299427162214977E8
+  },
+  {
+    "Generacja": 78,
+    "Best Fitness": -6.018122473018369,
+    "Average Fitness": -2.02970430497907E7
+  },
+  {
+    "Generacja": 79,
+    "Best Fitness": -5.9667434793458725,
+    "Average Fitness": -482048.43994832755
+  },
+  {
+    "Generacja": 80,
+    "Best Fitness": -5.914363239260891,
+    "Average Fitness": -202116.36244249984
+  },
+  {
+    "Generacja": 81,
+    "Best Fitness": -5.895407392511782,
+    "Average Fitness": -1078489.448559776
+  },
+  {
+    "Generacja": 82,
+    "Best Fitness": -5.783115958344112,
+    "Average Fitness": -447807.7477478134
+  },
+  {
+    "Generacja": 83,
+    "Best Fitness": -5.782334579032838,
+    "Average Fitness": -268235.72904284747
+  },
+  {
+    "Generacja": 84,
+    "Best Fitness": -5.750197747224471,
+    "Average Fitness": -2.111856701152754E7
+  },
+  {
+    "Generacja": 85,
+    "Best Fitness": -5.750197747224471,
+    "Average Fitness": -1277173.2036587792
+  },
+  {
+    "Generacja": 86,
+    "Best Fitness": -5.7158641456436055,
+    "Average Fitness": -485688.12894223223
+  },
+  {
+    "Generacja": 87,
+    "Best Fitness": -5.704140170587448,
+    "Average Fitness": -5593630.019642105
+  },
+  {
+    "Generacja": 88,
+    "Best Fitness": -5.704140170587448,
+    "Average Fitness": -6874398.61170296
+  },
+  {
+    "Generacja": 89,
+    "Best Fitness": -5.692600995197056,
+    "Average Fitness": -309032.9987148348
+  },
+  {
+    "Generacja": 90,
+    "Best Fitness": -5.684992014257001,
+    "Average Fitness": -1.1512896759581296E7
+  },
+  {
+    "Generacja": 91,
+    "Best Fitness": -5.67908248982449,
+    "Average Fitness": -2.771117632342453E8
+  },
+  {
+    "Generacja": 92,
+    "Best Fitness": -5.673570328078618,
+    "Average Fitness": -2.831836047951199E8
+  },
+  {
+    "Generacja": 93,
+    "Best Fitness": -5.6030503769180005,
+    "Average Fitness": -408997.4760539369
+  },
+  {
+    "Generacja": 94,
+    "Best Fitness": -5.511229118315046,
+    "Average Fitness": -652102.627931479
+  },
+  {
+    "Generacja": 95,
+    "Best Fitness": -5.511229118315046,
+    "Average Fitness": -5.2001997458836906E7
+  },
+  {
+    "Generacja": 96,
+    "Best Fitness": -5.505714164656879,
+    "Average Fitness": -2.744945043751945E7
+  },
+  {
+    "Generacja": 97,
+    "Best Fitness": -5.483572549684956,
+    "Average Fitness": -1.0490814978713818E7
+  },
+  {
+    "Generacja": 98,
+    "Best Fitness": -5.4745549561832965,
+    "Average Fitness": -3707947.9204338556
+  },
+  {
+    "Generacja": 99,
+    "Best Fitness": -5.460325930943002,
+    "Average Fitness": -240038.47586070298
+  },
+  {
+    "Generacja": 100,
+    "Best Fitness": -5.4576986416786495,
+    "Average Fitness": -353678.2173247355
+  }
+]
